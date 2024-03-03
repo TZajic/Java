@@ -60,6 +60,7 @@ public class Calculator {
                 double numberA = sc.nextDouble();
                 System.out.println("Insert number B:");
                 double numberB = sc.nextDouble();
+                sc.nextLine();
                 op.add(numberA,numberB);
                 System.out.println("Would you like to continue? Y/N");
                 continueCalc = sc.nextLine();
@@ -70,6 +71,7 @@ public class Calculator {
                 double numberA = sc.nextDouble();
                 System.out.println("Insert number B:");
                 double numberB = sc.nextDouble();
+                sc.nextLine();
                 op.subtract(numberA,numberB);
                 System.out.println("Would you like to continue? Y/N");
                 continueCalc = sc.nextLine();
@@ -79,6 +81,7 @@ public class Calculator {
                 double numberA = sc.nextDouble();
                 System.out.println("Insert number B:");
                 double numberB = sc.nextDouble();
+                sc.nextLine();
                 op.multiply(numberA,numberB);
                 System.out.println("Would you like to continue? Y/N");
                 continueCalc = sc.nextLine();
@@ -87,6 +90,7 @@ public class Calculator {
                 double numberA = sc.nextDouble();
                 System.out.println("Insert number B:");
                 double numberB = sc.nextDouble();
+                sc.nextLine();
                 op.divide(numberA,numberB);
                 System.out.println("Would you like to continue? Y/N");
                 continueCalc = sc.nextLine();
